@@ -1,0 +1,144 @@
+//* Variables *//
+
+// Color
+$color-default: #666;
+$color-white: #fff;
+$color-white-darker: #fdfdfd;
+$color-white-darker-2: #eee;
+$color-alt: #DB362A;
+$color-alt-darker: #BC2D24;
+$color-black: #000;
+
+// Images
+$tedx-logo: "/img/TEDxSunwayUniversity_Logo_White.png";
+
+// Colors
+.white {
+	color: $color-white;
+}
+.alt {
+	color: $color-alt;
+}
+.bold {
+	font-weight: 700;
+}
+
+// Type
+.condensed {
+    font-family: 'Open Sans Condensed', sans-serif;
+    letter-spacing: -0.5px;
+    // font-style: italic;
+    color: $color-alt;
+}
+.font-normal {
+    font-size: 14px;
+}
+.size-24 {
+    font-size: 24px;
+}
+.bold {
+    font-weight: 700;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.no-text-transform {
+    text-transform: none;
+}
+
+// Background Color
+.bg-white {
+    background-color: $color-white;
+}
+.bg-white-darker {
+    background-color: $color-white-darker;
+}
+.bg-white-darker-2 {
+    background-color: $color-white-darker-2;
+}
+.bg-black {
+    background-color: $color-black;
+}
+
+// Rounding
+.rounded {
+    border-radius: 4px;
+}
+.not-rounded {
+	border-radius: 0px;
+}
+
+// Padding
+.rm-padding {
+    padding: 0;
+}
+.padding-right-20 {
+    padding-right: 20px;
+}
+.padding-left-30 {
+    padding-left: 30px;
+}
+
+// Margin
+.rm-margin-top {
+    margin-top: 0px;
+}
+.rm-margin-right {
+    margin-right: 0px;
+}
+.rm-margin-bottom {
+    margin-bottom: 0px;
+}
+.rm-margin-left {
+    margin-left: 0px;
+}
+.margin-top-10 {
+    margin-top: 10px;
+}
+.margin-top-30 {
+    margin-top: 30px;
+}
+.margin-top-50 {
+    margin-top: 50px;
+}
+.margin-top-70 {
+    margin-top: 70px;
+}
+.margin-top-100 {
+    margin-top: 100px;
+}
+.margin-top-200 {
+    margin-top: 200px;
+}
+.margin-top-300 {
+    margin-top: 300px;
+}
+.margin-bottom-10 {
+    margin-bottom: 10px;
+}
+.margin-bottom-30 {
+    margin-bottom: 30px;
+}
+.margin-bottom-50 {
+    margin-bottom: 50px;
+}
+.margin-bottom-70 {
+    margin-bottom: 70px;
+}
+.margin-bottom-100 {
+    margin-bottom: 100px;
+}
+.margin-bottom-200 {
+    margin-bottom: 200px;
+}
+
+// Border
+.rm-border {
+    border: 0px;
+}
+.border-top-dotted {
+    border-top: 2px dotted $color-white-darker-2;
+}
+.border-bottom-dotted {
+    border-bottom: 2px dotted $color-white-darker-2;
+}

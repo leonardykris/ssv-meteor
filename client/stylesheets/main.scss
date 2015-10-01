@@ -1,0 +1,22 @@
+@import 'variables';
+@import 'landing';
+
+html, body {
+	height: 100%;
+}
+body {
+	// Type
+	// font-family: $font;
+	// font-size: 100%;
+	color: $color-default;
+
+	// Legibility
+	-webkit-font-smoothing: antialiased;
+	text-shadow: rgba(0,0,0,.01) 0 0 1px;
+
+	// background
+    background-color: $color-white;
+}
+a {
+	color: $color-alt;
+}
