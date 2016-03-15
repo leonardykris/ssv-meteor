@@ -27,3 +27,5 @@ twbs:bootstrap
 npm-container
 fortawesome:fontawesome
 iron:router
+accounts-password
+accounts-ui-unstyled
